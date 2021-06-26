@@ -1,0 +1,862 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-size: cover;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    background-size: cover;
+}
+.part1 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.part1 ul li{
+    margin-left: 70px;
+    list-style: none;
+}
+.part1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.part2 li{
+    list-style-type: none;
+    margin-right: 70px;
+}
+.part2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#home a{
+    color: chocolate;
+}
+main{
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 699px;
+    background-position: 0% 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.voved{
+    margin-top: -200px;
+    margin-left: 100px;
+    
+}
+.voved p{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+}
+.voved p a{
+    color: chocolate;
+    text-shadow: 3px 3px black;
+
+
+}
+.me{
+    margin-top: -200px;
+    margin-right: 100px;
+}
+.me img{
+    border-radius: 50%;
+}
+#about{
+    margin-top: -235px;
+}
+#about h1{
+    font-family: fantasy;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+    text-align: center;
+    margin: 0;
+    margin-left: 400px;
+    margin-top: 50px;
+    
+}
+#about p{
+    font-family: cursive;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+    text-align: left;
+    margin-left: 100px;
+    width: 800px;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1264px;
+    background-position: 0% 80%;
+}
+.naslov{
+    background-color: rgba(197, 190, 190, .2);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.naslov h1{
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    font-size: 60px;
+    text-shadow: 3px 3px black;
+    letter-spacing: 20px;
+}
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hobbies1, .hobbies2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.movies{
+    width: 300px;
+    height: 475px;
+    background-color: gray;
+    border: 5px solid rgb(26, 24, 24);
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px black;
+
+}
+.movies img{
+    margin-top: 50px;
+}
+.movies h2{
+    color: chocolate;
+    margin: 0;
+    margin-top: 5px;
+    background-color: rgb(199, 194, 194);
+    font-family: cursive;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    text-shadow: 2px 1px black;
+
+}
+.movies p{
+    display: inline-block;
+    height: 158px;
+    text-align: center;
+    font-family: cursive;
+    margin: 0;
+    color: white;
+}
+
+.driving{
+    width: 300px;
+    height: 475px;
+    background-color: gray;
+    border: 5px solid rgb(26, 24, 24);
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px black;
+
+}
+.driving img{
+    margin-top: 50px;
+}
+.driving h2{
+    color: chocolate;
+    margin: 0;
+    margin-top: 5px;
+    background-color: rgb(199, 194, 194);
+    font-family: cursive;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 1px black;
+
+}
+.driving p{
+    display: inline-block;
+    height: 158px;
+    text-align: center;
+    font-family: cursive;
+    margin: 0;
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+
+}
+
+.music{
+    width: 300px;
+    height: 475px;
+    background-color: gray;
+    border: 5px solid rgb(26, 24, 24);
+    border-radius: 10%;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-shadow: 3px 3px black;
+
+}
+.music img{
+    margin-top: 50px;
+}
+.music h2{
+    color: chocolate;
+    margin: 0;
+    margin-top: 5px;
+    background-color: rgb(199, 194, 194);
+    font-family: cursive;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 1px black;
+
+
+}
+.music p{
+    display: inline-block;
+    height: 158px;
+    text-align: center;
+    font-family: cursive;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+
+}
+.sport{
+    width: 300px;
+    height: 475px;
+    background-color: gray;
+    border: 5px solid rgb(26, 24, 24);
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px black;
+
+}
+.sport img{
+    margin-top: 50px;
+}
+.sport h2{
+    color: chocolate;
+    margin: 0;
+    margin-top: 5px;
+    background-color: rgb(199, 194, 194);
+    font-family: cursive;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-size: 32px;
+    text-shadow: 2px 1px black;
+
+
+}
+.sport p{
+    display: inline-block;
+    height: 158px;
+    text-align: center;
+    font-family: cursive;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.programming{
+    width: 300px;
+    height: 475px;
+    background-color: gray;
+    border: 5px solid rgb(26, 24, 24);
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px black;
+
+}
+.programming img{
+    margin-top: 50px;
+}
+.programming h2{
+    color: chocolate;
+    margin: 0;
+    margin-top: 5px;
+    background-color: rgb(199, 194, 194);
+    font-family: cursive;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-size: 28px;
+    text-shadow: 2px 1px black;
+
+}
+.programming p{
+    display: inline-block;
+    height: 158px;
+    text-align: center;
+    font-family: cursive;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+
+}
+.travel{
+    width: 300px;
+    height: 475px;
+    background-color: gray;
+    border: 5px solid rgb(26, 24, 24);
+    border-radius: 10%;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-shadow: 3px 3px black;
+
+}
+.travel img{
+    margin-top: 50px;
+}
+.travel h2{
+    color: chocolate;
+    margin: 0;
+    margin-top: 5px;
+    background-color: rgb(199, 194, 194);
+    font-family: cursive;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 1px black;
+
+}
+.travel p{
+    display: inline-block;
+    height: 158px;
+    text-align: center;
+    font-family: cursive;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+
+}
+
+.movies:hover, .driving:hover,.music:hover,.sport:hover,.programming:hover,.travel:hover{
+    background-color: rgb(107, 105, 105);
+    transform: translate(2px, 2px);
+}
+
+.main-sport{
+    height: 699px;
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.naslov-sport{
+    width: 318px;
+    margin-left: 50px;
+}
+.naslov-sport h1{
+    color: white;
+    font-family: cursive;
+    font-size: 100px;
+    text-shadow: 3px 3px black;
+
+}
+.naslov-sport p{
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+
+}
+.sredina{
+    height: 500px;
+    width: 600px;
+    border: 2px solid black;
+    margin-top: 100px;
+    background-color: rgba(129, 129, 129, .9);
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    margin-top: 100px;
+    display: inline-block;
+    width: 400px;
+    margin-right: 20px;
+}
+.image img{
+    border-radius: 50%;
+}
+.basketball{
+    margin-left: 7px;
+    margin-top: 7px;
+    background-color: gray;
+    width: 180px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.basketball h2{
+    font-family: cursive;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0;
+    text-align: center;
+    width: 180px;
+}
+.basketball img{
+    padding: 2px;
+}
+.basketball:hover >  h2{
+    color: chocolate;
+}
+.hike{
+    margin-left: 7px;
+    margin-top: 7px;
+    background-color: gray;
+    width: 180px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.hike h2{
+    font-family: cursive;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0;
+    text-align: center;
+    width: 180px;
+}
+.hike img{
+    padding: 2px;
+}
+.hike:hover >  h2{
+    color: chocolate;
+}
+.gym{
+    margin-left: 7px;
+    margin-top: 7px;
+    background-color: gray;
+    width: 180px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.gym h2{
+    font-family: cursive;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0;
+    text-align: center;
+    width: 180px;
+}
+.gym img{
+    padding: 2px;
+}
+.gym:hover >  h2{
+    color: chocolate;
+}
+.run{
+    margin-left: 7px;
+    margin-top: 7px;
+    background-color: gray;
+    width: 180px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.run h2{
+    font-family: cursive;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0;
+    text-align: center;
+    width: 180px;
+}
+.run img{
+    padding: 2px;
+}
+.run:hover >  h2{
+    color: chocolate;
+}
+.bike{
+    margin-left: 7px;
+    margin-top: 7px;
+    background-color: gray;
+    width: 180px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.bike h2{
+    font-family: cursive;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0;
+    text-align: center;
+    width: 180px;
+}
+.bike img{
+    padding: 2px;
+}
+.bike:hover >  h2{
+    color: chocolate;
+}
+.swimming{
+    margin-left: 7px;
+    margin-top: 7px;
+    background-color: gray;
+    width: 180px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.swimming h2{
+    font-family: cursive;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0;
+    text-align: center;
+    width: 180px;
+}
+.swimming img{
+    padding: 2px;
+}
+.swimming:hover >  h2{
+    color: chocolate;
+}
+.red1{
+    text-align: center;
+}
+.red2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content1{
+    background: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+.content1 p{
+    margin-top: 1px;
+}
+.content1 img{
+    margin-left: -6px;
+}
+.basketball:hover .content1{
+    top: 0;
+}
+.content2{
+    background: rgb(0, 0, 0, 0.8);
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    color: white;
+}
+.content2 img{
+    margin-left: -6px;
+}
+
+.hike:hover .content2{
+    top: 0;
+}
+.content3{
+    background: rgb(0, 0, 0, 0.8);
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    color: white;
+}
+.content3 img{
+    margin-left: -6px;
+}
+.content3 p{
+    margin-top: -1px;
+}
+
+.gym:hover .content3{
+    top: 0;
+}
+.content4{
+    background: rgb(0, 0, 0, 0.8);
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    color: white;
+}
+.content4 img{
+    margin-left: -6px;
+}
+
+.run:hover .content4{
+    top: 0;
+}
+.content5{
+    background: rgb(0, 0, 0, 0.8);
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    color: white;
+}
+.content5 img{
+    margin-left: -6px;
+}
+
+.bike:hover .content5{
+    top: 0;
+}
+.content6{
+    background: rgb(0, 0, 0, 0.8);
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    color: white;
+}
+.content6 img{
+    margin-left: -6px;
+}
+
+.swimming:hover .content6{
+    top: 0;
+}
+.main3{
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 699px;
+    background-position: 0% 80%;
+    display: flex;
+    flex-direction: column;
+}
+.naslov-contact{
+    background-color: rgba(197, 190, 190, .2);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.naslov-contact h1{
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    font-size: 40px;
+    text-shadow: 3px 3px black;
+    letter-spacing: 20px;
+}
+.naslov-contact h1 span{
+    color: rgb(124, 12, 12);
+}
+.sodrzina-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.fb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 200px;
+    width: 300px;
+    box-shadow: 5px 5px rgba(10, 10, 10, .6);
+
+}
+.fb img{
+    margin-left: 17px;
+}
+.text-fb{
+    margin-right: 20px;
+}
+.text-fb h3{
+    font-size: 30px;
+    margin: 0;
+    margin-left: 10px;
+}
+.text-fb p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.text-fb a{
+    text-decoration: none;
+    color: rgb(80, 80, 185);
+    text-align: center;
+}
+.div1 a, .div2 a{
+    text-decoration: none;
+}
+.div1 a h3, .div2 a h3{
+    color: black;
+}
+
+.fb:hover, .insta:hover, .mail:hover, .address:hover{
+    background-color: rgb(168, 167, 167);
+    transition: all 0.5s;
+
+}
+.insta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 200px;
+    width: 300px;
+    box-shadow: 5px 5px rgba(10, 10, 10, .6);
+
+}
+.insta img{
+    margin-left: 17px;
+}
+.text-insta{
+    margin-right: 35px;
+    
+}
+.text-insta h3{
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+.text-insta p{
+    font-size: 18px;
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+.mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 200px;
+    width: 300px;
+    box-shadow: 5px 5px rgba(10, 10, 10, .6);
+
+}
+.mail img{
+    margin-left: -15px;
+}
+.text-mail{
+    margin-right: 20px;
+}
+.text-mail h3{
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    margin-left: -35px;
+}
+.text-mail p{
+    font-size: 10px;
+    text-align: center;
+    margin-left: -25px;
+    font-weight: bold;
+    color: black;
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 200px;
+    width: 300px;
+    box-shadow: 5px 5px rgba(10, 10, 10, .6);
+
+}
+.address img{
+    margin-left: 17px;
+}
+.text-address{
+    margin-right: 50px;
+}
+.text-address h3{
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+.text-address p{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(143, 19, 19);
+    font-weight: bold;
+
+}
+.logo1{
+    display: inline-block;
+    
+  
+}
+
+.div3{
+    margin-top: 5px;
+    margin-right: 100px;
+}
+.div3 img{
+    border-radius: 50%;
+}
