@@ -8,6 +8,10 @@ That code is private, so what you see here is mostly what I build on the side.
 
 ## Selected projects
 
+**[Pact](https://github.com/GligorcoGligorov/Pact)**: habit app for small crews of friends, built in two weeks during the 8x Playmakers trial.
+Each day everyone checks in with a photo of the habit plus that day's challenge. If one person misses, the chain breaks for the whole crew, and whoever slips pays the stake. It's an Expo app and a Next.js API sharing one Zod contract. Every read and write goes through the server, and day math is computed in each pact's own time zone and DST-safe. An AI judge (Groq, falling back to Gemini) runs in the background, so it never blocks a check-in.
+`Expo` `React Native` `Next.js 15` `Prisma` `Supabase` `Zod` `Groq` `PostHog`
+
 **[FitCheck](https://thefitcheck.vercel.app)**: AI wardrobe stylist, live in production.
 A vision model tags each garment once, then the stylist reasons over a compact text catalogue. That cut inference cost about 10×. Garment names come from a closed vocabulary and are composed in code, so there are no hallucinated names in English, German or Macedonian.
 `Next.js 16` `Prisma` `PostgreSQL (Neon)` `Vercel AI SDK` `Groq` `Zod`
