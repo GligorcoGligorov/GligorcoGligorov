@@ -2,7 +2,7 @@
 
 Backend & AI engineer. I build systems that run in production, not just in demos: AI pipelines, reliable distributed backends, and email security.
 
-For the past 3.5 years I've been the sole backend engineer at [BrandsGateway](https://brandsgateway.com), a B2B luxury fashion marketplace. I own the pipeline that imports products from 15+ European vendors and runs them through GPT-4 to clean and write content for 10,000+ SKUs a day. It recovers from failures on its own, isolates state per product, keeps versioned rollback on S3, and logs everything to Graylog so I can see what broke before anyone else notices.
+For the past 3.5 years I've been the sole backend engineer at [BrandsGateway](https://brandsgateway.com), a B2B luxury fashion marketplace. I own the pipeline that imports products from 15+ international vendors and runs them through GPT-4 to clean and write content for 10,000+ SKUs a day. It recovers from failures on its own, isolates state per product, keeps versioned rollback on S3, and logs everything to Graylog so I can see what broke before anyone else notices.
 
 That code is private, so what you see here is mostly what I build on the side.
 
